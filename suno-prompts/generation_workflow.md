@@ -28,7 +28,10 @@ This skill outlines the iterative process for generating, evaluating, and refini
     *   Once the prompt scores >= 7, save it as the final version for this iteration.
     *   Ensure the file includes the **Parameters** section.
 
-6.  **Loop**:
+6.  **Lyric Harvesting**:
+    *   If a specific lyric line or rhyme is outstandingly good, copy it to `best-lyrics.md` with a brief note on why it works.
+
+7.  **Loop**:
     *   Generate a variant (change tempo, vocal gender, or instrument focus) and repeat.
 
 ---
