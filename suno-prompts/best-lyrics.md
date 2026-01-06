@@ -45,3 +45,23 @@ This file collects outstanding lyrics and rhymes generated during the prompt cre
 > **"Han flowing deep like a river of tears / Carrying the weight of a thousand years."**
 > *Source: Pansori Dub (Fusion)*
 > *Why it works:* Deeply poetic use of "Han" (Korean cultural concept of sorrow/resentment) blended with the "river" imagery common in both Pansori and Reggae.
+
+> **"Ahjumma elbows sharp like a knife / Fighting for a seat, fighting for life."**
+> *Source: Subway Commute*
+> *Why it works:* Vivid, humorous, and relatable description of the Seoul subway experience.
+
+> **"Silence is golden, silence is key / Just the sound of the pencil and me."**
+> *Source: Study Cafe*
+> *Why it works:* Captures the intense, isolated atmosphere of a Dokseosil perfectly.
+
+> **"Kkwaenggwari lightning strike from the sky / Jing is the wind blowing low and high."**
+> *Source: Samulnori Ragga*
+> *Why it works:* Perfect metaphor mapping the traditional Samulnori instruments to natural elements, fitting the Reggae "nature" theme.
+
+> **"Green turns to yellow, yellow to red / Summer is sleeping in its winter bed."**
+> *Source: Autumn Leaves*
+> *Why it works:* Beautiful, simple imagery that fits the acoustic reggae vibe.
+
+> **"Cut and paste, stitch and sew / Where did the real face go?"**
+> *Source: Plastic Surgery*
+> *Why it works:* Sharp social commentary with a catchy, rhythmic flow.
