@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 40% (Bumped up for High Energy/Electronic)
+*   **Style Influence:** 60% (Adhere to clean production standards)
+
 **Style Prompt:**
 ```text
 genre: "psytrance, full-on, 145 bpm, high-energy"

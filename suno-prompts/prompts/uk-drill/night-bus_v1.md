@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 40% (Aligned with v5 Hip-Hop guidelines)
+*   **Style Influence:** 50% (Slightly looser for ambient vibe)
+
 **Style Prompt:**
 ```text
 genre: "minimal uk drill, ambient drill, 138 bpm, nocturnal vibes"

@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 65% (High weirdness for organic/experimental textures)
+*   **Style Influence:** 50% (Balance between genre constraints and atmospheric freedom)
+
 **Style Prompt:**
 ```text
 genre: "forest psy, dark psytrance, 150 bpm, organic textures"
