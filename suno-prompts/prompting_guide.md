@@ -24,6 +24,36 @@ mood: "mood descriptors"
 
 ---
 
+## Generation Parameters (Weirdness vs. Style)
+
+Beyond the text prompt, setting the right parameters is crucial for steering the model. These ranges are based on research into Suno v5 behaviors (e.g., Jack Righteous Guide).
+
+### Weirdness (Safe → Chaos)
+*   **Safe (0-20%)**: Predictable, highly commercial.
+*   **Normal (35-55%)**: The baseline for most genres.
+*   **High (60-100%)**: Experimental, chaotic. Use for blends or avant-garde.
+
+**Specific V5 Ranges:**
+*   **Radio Pop**: 35–50%
+*   **Hip-Hop / Trap**: 40–55%
+*   **Worship / Gospel**: 25–40%
+*   **Orchestral**: 55–70%
+*   **Ambient / Experimental**: 70–85%
+
+### Style Influence (Loose → Strong)
+*   **Loose (0-30%)**: Open interpretation. Good for incompatible genre blends.
+*   **Medium (40-60%)**: Balanced adherence.
+*   **Strong (65-100%)**: Strict adherence to prompt tags.
+
+**Specific V5 Ranges:**
+*   **Radio Pop**: 65–80% (Strict)
+*   **Hip-Hop / Trap**: 55–70%
+*   **Worship / Gospel**: 70–85%
+*   **Orchestral**: 45–60%
+*   **Ambient / Experimental**: 35–55%
+
+---
+
 ## Advanced Strategies
 
 ### 1. Escaping Genre Gravity Wells
@@ -76,6 +106,10 @@ You can "stack" commands with pipes `|`:
 ---
 
 ## Example: The "Perfect" Acoustic Prompt
+
+**Parameters:**
+*   **Weirdness:** 40%
+*   **Style Influence:** 60%
 
 **Style Field:**
 ```text

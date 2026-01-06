@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 40% (Aligned with v5 Hip-Hop guidelines 40-55%)
+*   **Style Influence:** 70% (Aligned with v5 Hip-Hop guidelines 55-70%)
+
 **Style Prompt:**
 ```text
 genre: "uk drill, road rap, 140 bpm, dark atmosphere"

@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 80% (Experimental range for high-contrast genre blending)
+*   **Style Influence:** 40% (Loosen genre constraints to blend the two styles)
+
 **Style Prompt:**
 ```text
 genre: "uk drill, orchestral drill, gothic opera fusion, 142 bpm"

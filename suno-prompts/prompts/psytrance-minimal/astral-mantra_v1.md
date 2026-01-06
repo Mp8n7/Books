@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 30% (Standard safe range for structured/uplifting genres)
+*   **Style Influence:** 70% (Strict adherence to the progressive trance structure)
+
 **Style Prompt:**
 ```text
 genre: "progressive psytrance, 138 bpm, melodic layers"

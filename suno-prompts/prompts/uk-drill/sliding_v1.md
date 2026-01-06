@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 45% (Within v5 Hip-Hop range, slightly higher for chaotic bass)
+*   **Style Influence:** 65% (Within v5 Hip-Hop range 55-70%)
+
 **Style Prompt:**
 ```text
 genre: "aggressive uk drill, heavy drill, 144 bpm, bass-boosted"

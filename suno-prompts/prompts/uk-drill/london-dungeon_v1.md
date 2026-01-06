@@ -7,6 +7,10 @@
 
 ## Final Prompt
 
+**Parameters:**
+*   **Weirdness:** 50% (Balanced for Industrial/Drill crossover)
+*   **Style Influence:** 60% (Moderate influence to allow textural experimentation)
+
 **Style Prompt:**
 ```text
 genre: "industrial uk drill, dark drill, 140 bpm, metallic textures"
