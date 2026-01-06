@@ -1,6 +1,6 @@
 # Suno AI Prompting Guide
 
-This guide covers techniques, structure, and metatags to help you get the best results from Suno AI.
+This guide covers techniques, structure, and metatags to help you get the best results from Suno AI. It is based on advanced strategies from the [Suno Song Creator Plugin](https://github.com/nwp/suno-song-creator-plugin).
 
 ## The Anatomy of a Prompt
 
@@ -8,100 +8,91 @@ Suno generally accepts two main inputs:
 1.  **Style Prompt**: Describes the musical genre, instruments, mood, and vocal style.
 2.  **Lyrics**: Contains the actual words and **Metatags** (instructions for structure and performance).
 
-### The Sweet Spot for Style Prompts
-*   **Length**: 4-7 descriptors is usually optimal. Too few = generic; too many = confused.
-*   **Formula**: `[Genre/Sub-genre]`, `[Vocal Style]`, `[Key Instruments]`, `[Mood/Tempo]`
-*   **Example**: "80s synthwave, pulsating bass, neon atmosphere, male vocals, driving tempo"
+### The 1000 Character Limit
+Suno has a strict 1000-character limit for the Style Prompt. To maximize quality:
+*   **NO BLANK LINES**: Blank lines waste characters. separate sections with newlines but don't leave gaps.
+*   **Colon-and-Quotes**: Use `key: "value"` format for clarity (though Suno parses natural text, this structure helps you organize).
+
+**Recommended Structure (concatenated):**
+```text
+genre: "genre tags here"
+vocal: "vocal persona here"
+instrumentation: "instruments here"
+production: "production values here"
+mood: "mood descriptors"
+```
+
+---
+
+## Advanced Strategies
+
+### 1. Escaping Genre Gravity Wells
+Suno's model has "gravity wells"—strong genres like Pop or Rock that pull everything towards them.
+*   **Strategy**: If you want "Old School Hip Hop" but keep getting "Trap", explicitly exclude it in the prompt or use negative prompting if available (or just strong descriptors).
+*   **Weird Combinations**: Combine tags that don't normally go together to force the model into creative corners (e.g., "Math Rock Gospel").
+
+### 2. Building Vocal Personas (4 Layers)
+Don't just say "Female Vocals". Build a persona:
+1.  **Demographics/Timbre**: "Female contralto, husky, nasal"
+2.  **Technical Delivery**: "Breathless, staccato phrasing, vocal fry"
+3.  **Emotional Context**: "Detached, melancholic, urgent"
+4.  **Sonic Anchor**: "Reminiscent of [Artist Style], 90s grunge aesthetic"
+
+### 3. Realism Stacks (For Acoustic/Folk)
+To make acoustic instruments sound real, use "recording engineer" language.
+*   **Room**: `small room acoustics`, `room tone`, `background noise floor`
+*   **Mic**: `close mic presence`, `proximity effect`, `off-axis placement`
+*   **Performance**: `fret squeak`, `pick noise`, `breath detail`, `natural timing drift`
+*   **Analog**: `tape saturation`, `tube warmth`, `slight wow and flutter`
+
+**Example Realism Stack:**
+> "small room acoustics, close mic presence, proximity effect, fret squeak, pick noise, tape saturation, natural dynamics"
+
+### 4. Electronic/Synth Strategies
+Realism descriptors hurt electronic music. Instead use:
+*   `FM synthesis bass`, `wavetable movement`
+*   `sidechain compression`, `low-pass filter sweeps`
+*   `clean punch`, `phase-coherent low end`
 
 ---
 
 ## Metatags (The "Code" of Suno)
 
-Metatags are instructions placed within the **Lyrics** field, usually inside square brackets `[]`. They tell the AI how to sing or structure the song.
+Metatags are instructions placed within the **Lyrics** field, usually inside square brackets `[]`.
 
 ### Structural Tags
-These define the sections of your song.
-*   `[Intro]` - Short instrumental start
-*   `[Verse]` / `[Verse 1]` - Main storytelling section
-*   `[Chorus]` - The main hook, usually higher energy
-*   `[Pre-Chorus]` - Buildup to the chorus
-*   `[Bridge]` - distinct change in melody/pace, usually towards the end
-*   `[Outro]` / `[Fade Out]` - Ending
-*   `[Instrumental Break]` / `[Solo]` - Section without vocals
+*   `[Intro]`, `[Verse]`, `[Chorus]`, `[Bridge]`, `[Outro]`
+*   `[Pre-Chorus]`, `[Hook]`, `[Break]`, `[Interlude]`
 
-### Vocal Tags
-Place these before a section to influence how it is sung.
-*   `[Male Vocals]` / `[Female Vocals]`
-*   `[Duet]` - Two voices
-*   `[Choir]` / `[Backing Vocals]`
-*   `[Rap]` / `[Spoken Word]`
-*   `[Whisper]` / `[Scream]` / `[Growl]`
-*   `[Autotune]`
+### Performance & Stacking
+You can "stack" commands with pipes `|`:
+*   `[Chorus | Anthemic | Stacked Harmonies]`
+*   `[Verse | Whispered | Minimal]`
 
-### Instrumental & Performance Tags
-*   `[Guitar Solo]` / `[Synth Solo]`
-*   `[Beat Drop]` / `[Bass Drop]`
-*   `[Silence]` / `[Pause]` - Creates a stop
-*   `[Acoustic]` / `[Unplugged]`
-*   `[Heavy]` / `[Distorted]`
+### Instrumental Tags
+*   `[Guitar Solo]`, `[Synth Solo]`, `[Bass Drop]`
+*   `[Instrumental Break]`, `[Silence]`
 
 ---
 
-## Advanced Techniques
+## Example: The "Perfect" Acoustic Prompt
 
-### The "Style" Field vs. "Lyrics" Field
-*   **Global Style**: Put the main genre and mood in the "Style" field (e.g., "Heavy Metal").
-*   **Local Instructions**: Put specific changes in the "Lyrics" field using metatags (e.g., `[Acoustic Intro]` inside a Metal song).
-
-### "Anchoring" to Artists
-Suno may block direct artist names, but you can describe their sound:
-*   *Instead of "The Weeknd"*: "Dark R&B, falsetto vocals, cinematic synth production, nocturnal vibe"
-*   *Instead of "Nirvana"*: "90s Grunge, loud-quiet dynamic, raspy male vocals, distorted guitars"
-
-### Extending Songs
-If a song cuts off:
-1.  Click **Extend** on the clip you like.
-2.  Clear the "Style" field (or keep it if you want the same vibe) and set the timestamp to where it ended.
-3.  Add the next section of lyrics (e.g., `[Bridge]` -> `[Chorus]` -> `[Outro]`).
-
-### Instrumental Hallucinations
-Sometimes Suno ignores `[Instrumental]` or `[Solo]` tags.
-*   *Fix*: Add descriptors like `virtuosic`, `complex`, or specific instrument names in the Style field to reinforce the intent.
-*   *Fix*: Try `[Instrumental Interlude]` instead of just `[Instrumental]`.
-
----
-
-## Example Structure
-
+**Style Field:**
 ```text
-[Style Prompt]:
-Dark Synthwave, Cyberpunk, Aggressive Bass, Female Vocals
+genre: "indie folk, singer-songwriter, 2020s bedroom pop aesthetic"
+vocal: "soft female alto, intimate whisper-to-belt, breathy delivery, slight vocal fry"
+instrumentation: "fingerpicked acoustic guitar, warm upright bass, sparse piano"
+production: "small room acoustics, close mic presence, proximity effect, fret squeak, tape saturation"
+mood: "melancholic, nostalgic, intimate"
+```
 
-[Lyrics Field]:
-[Intro]
-(Synthesizer arpeggios build up)
+**Lyrics Field:**
+```text
+[Intro | acoustic guitar | tape hiss]
 
 [Verse 1]
-Neon lights reflect in the rain
-Walking down the memory lane
+(Lyrics...)
 
-[Pre-Chorus]
-Can you feel the static?
-It's automatic...
-
-[Chorus]
-System overload!
-(Explosive energy)
-We are losing control!
-
-[Guitar Solo]
-
-[Bridge]
-Everything is fading to black...
-
-[Chorus]
-System overload!
-
-[Outro]
-[Fade Out]
+[Chorus | Double-tracked vocals]
+(Lyrics...)
 ```
