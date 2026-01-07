@@ -25,41 +25,41 @@ mood: "lonely, calm, late-night, hungry, introspective"
 ```text
 [Intro | Store Door Chime Sound | Lo-Fi Crackle]
 (Ding-dong)
-2 AM.
+새벽 2시 (2 AM).
 Neon lights buzzing.
 
 [Verse 1]
-Blue plastic chairs on the patio outside,
-Watching the drunk people trying to hide.
-Triangle kimbap and a banana milk,
+파란 플라스틱 의자 (Blue plastic chairs) on the patio outside,
+술 취한 사람들 (Drunk people) trying to hide.
+삼각김밥 (Triangle kimbap) and a banana milk,
 City night feeling smooth like silk.
-The clerk is sleeping with his head on the desk,
+알바생은 꾸벅꾸벅 (Part-timer nodding off) head on the desk,
 This quiet moment is simply the best.
 
 [Chorus | Deep Bass | Soft Vocals]
-Pyeonejeom lights, shining so bright.
+편의점 불빛 (Pyeonejeom lights), shining so bright.
 A beacon of hope in the middle of the night.
-Buy 2 Get 1 Free, yeah that's the deal.
-Microwave spinning, keeping it real.
+Two plus one (2+1), yeah that's the deal.
+전자레인지 빙글빙글 (Microwave spinning), keeping it real.
 
 [Verse 2]
-Soju bottles clinking in the green crate,
-Wondering why I am staying up so late.
-Instant coffee in a cup of ice,
-Paying the price for the city life vice.
-Lonely souls meet under the fluorescent glow,
+초록색 병 소리 (Green bottle sound) clinking in the crate,
+왜 안 자고 있을까 (Why am I awake) up so late.
+얼음컵에 커피 (Coffee in ice cup), paying the price,
+City life vice, cold as ice.
+외로운 영혼들 (Lonely souls) meet under the fluorescent glow,
 Where we go next, nobody knows.
 
 [Bridge | Rhodes Piano Solo]
 (Dreamy texture)
-Humming of the fridge...
-Humming of the city...
+냉장고 소리 (Fridge humming)...
+도시의 소음 (City noise)...
 
 [Chorus]
-Pyeonejeom lights, shining so bright.
+편의점 불빛 (Pyeonejeom lights), shining so bright.
 A beacon of hope in the middle of the night.
 
 [Outro]
 (Ding-dong)
-See you tomorrow.
+내일 봐요 (See you tomorrow).
 ```

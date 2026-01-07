@@ -30,32 +30,32 @@ Seoul city sunset.
 Let it flow.
 
 [Verse 1]
-Sitting by the river, water flowing slow,
-Delivery scooter coming, yeah we waiting for the dough.
-Chimaek on the grass, wind in my hair,
-Worries floating away, floating in the air.
-Mapo Bridge lights starting to glow,
+강가에 앉아 (Sitting by the river), water flowing slow,
+배달 오토바이 소리 (Delivery scooter sound), yeah we waiting for the dough.
+잔디 위엔 치맥 (Chimaek on the grass), wind in my hair,
+걱정은 날려보내 (Worries floating away), floating in the air.
+마포대교 불빛 (Mapo Bridge lights) starting to glow,
 Forget the hustle, take it slow.
 
 [Chorus | Brass Section | Harmony]
 Han River chilling, feeling so right.
 Seoul city shining, deep in the night.
 No stress, no pressure, just you and me.
-Under the bridge, wild and free.
+다리 밑에서 (Under the bridge), wild and free.
 (Jah Rastafari in Seoul city!)
 
 [Verse 2]
-Instant ramyeon cooking on the foil,
+은박지 라면 (Foil ramyeon) cooking on the boil,
 We leave behind the day's hard toil.
-Bicycles passing, ding-ding-ding,
+자전거 지나가네 (Bicycles passing), ding-ding-ding,
 Listen to the melody that the river sing.
-Gangnam skyscrapers far away,
-This is where I want to stay.
+강남 빌딩들 (Gangnam skyscrapers) far away,
+이곳이 좋아 (I like this place), I want to stay.
 
 [Bridge | Saxophone Solo]
 (Smooth jazz-reggae fusion)
 Yeah...
-Feel the breeze.
+바람을 느껴봐 (Feel the breeze).
 
 [Chorus]
 Han River chilling, feeling so right!

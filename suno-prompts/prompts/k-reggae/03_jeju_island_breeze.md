@@ -24,43 +24,43 @@ mood: "happy, vacation, tropical, sunny, carefree"
 **Lyrics:**
 ```text
 [Intro | Ocean Waves | Ukulele Strum]
-Jeju Island!
+제주도 푸른 밤 (Jeju Island blue night)!
 Blue ocean, blue sky!
-Let's fly!
+떠나요 (Let's leave)!
 
 [Verse 1 (Male)]
-Leaving the grey city behind,
+회색 도시를 떠나 (Leaving the grey city),
 Got a plane ticket and peace of mind.
-Hallasan mountain touching the clouds,
+한라산 구름 위로 (Hallasan above clouds),
 Far away from the Seoul city crowds.
-Tangerine trees smelling so sweet,
-Sand underneath my bare feet.
+귤 향기 가득해 (Full of tangerine scent), so sweet,
+모래사장 위 (On the sand) bare feet.
 
 [Chorus (Duet)]
 Jeju breeze, blowing through the trees.
-Dol Hareubang watching over me.
-Emerald water, black volcanic stone.
+돌하르방 (Dol Hareubang) watching over me.
+에메랄드 빛 바다 (Emerald sea), black volcanic stone.
 This island feeling is inside my bone.
-Jeju-do! (Hey!) Jeju-do! (Ho!)
+제주도! (Hey!) 제주도! (Ho!)
 
 [Verse 2 (Female)]
-Driving the coast road, wind in my hair,
-Abalone porridge, nothing compare.
-Udo Island boat ride today,
+해안도로 드라이브 (Coastal road drive), wind in my hair,
+전복죽 (Abalone porridge), nothing compare.
+우도 배를 타고 (Riding Udo boat) today,
 Wash all the stress and the worry away.
-Sunrise peak, waiting for the dawn,
+성산일출봉 (Sunrise Peak), waiting for the dawn,
 Yesterday's troubles are dead and gone.
 
 [Bridge | Steel Drum Solo]
 (Tropical melody)
-Dancing on the beach...
-Hyeopjae beach...
+협재 해변에서 (At Hyeopjae Beach)...
+춤을 춰요 (Let's dance)...
 
 [Chorus]
 Jeju breeze, blowing through the trees!
-Dol Hareubang watching over me!
+돌하르방 watching over me!
 
 [Outro]
-See you next summer.
+내년에 또 봐요 (See you next year).
 Jeju love.
 ```

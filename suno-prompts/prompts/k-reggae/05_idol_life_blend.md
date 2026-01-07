@@ -28,46 +28,46 @@ Reggae summer.
 Hey boy.
 
 [Verse 1]
-Under the stage lights, perfect every day,
-But in my heart, I want to run away.
-To a reggae rhythm, slow and sweet,
-Moving my body to a different beat.
-Practice room mirrors, reflecting my face,
-Dreaming of a tropical, faraway place.
+무대 조명 아래 (Under stage lights), perfect every day,
+맘 속으론 (Inside my heart), I want to run away.
+레게 리듬에 맞춰 (To the reggae rhythm), slow and sweet,
+내 몸을 맡겨 (Trust my body), to a different beat.
+연습실 거울 속 (In the practice room mirror), reflecting my face,
+꿈을 꿔요 (Dreaming) of a tropical place.
 
 [Pre-Chorus | Build Up]
-Heartbeat racing (Dugun dugun!)
-Music chasing (Run run!)
-Don't want to be a doll on a shelf,
+두근두근 (Heart racing)!
+달려봐 (Run)!
+인형은 되기 싫어 (Don't want to be a doll),
 Just want to be myself.
 
 [Chorus | Catchy Pop Melody]
 Idol reggae vibe, feeling so cool.
 Breaking every single K-pop rule.
-Skanking in my high heels, singing off-beat.
-This summer melody is oh so sweet.
+하이힐 신고 스캥킹 (Skanking in high heels), singing off-beat.
+이 여름 멜로디 (This summer melody) is oh so sweet.
 Ooh-whoa-ooh! (Reggae night!)
 
 [Verse 2 (Rap)]
 Yeah, check it.
-Camera flash, paparazzi snap,
-Caught in the fame trap.
+카메라 플래시 (Camera flash), paparazzi snap,
+유명세란 덫 (Trap of fame).
 But when the bass drops low,
-I let the rhythm flow.
-No choreography, just free style,
-Walking the flowery path for a mile.
+리듬을 타 (Ride the rhythm), flow.
+안무는 필요 없어 (No choreo needed), just free style,
+꽃길만 걷자 (Let's walk the flower path) for a mile.
 
 [Bridge | Slow Jam]
-Fans are screaming my name.
-But this love is not a game.
-Listen to the bassline...
+팬들의 함성 (Fans screaming).
+하지만 내 사랑은 (But my love is) not a game.
+베이스를 느껴봐 (Feel the bass)...
 
 [Chorus | Key Change]
 Idol reggae vibe, feeling so cool!
 Breaking every single K-pop rule!
 
 [Outro]
-Ending pose.
+엔딩 포즈 (Ending pose).
 (Wink)
-Saranghae.
+사랑해 (I love you).
 ```
