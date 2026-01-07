@@ -65,3 +65,13 @@ This file collects outstanding lyrics and rhymes generated during the prompt cre
 > **"Cut and paste, stitch and sew / Where did the real face go?"**
 > *Source: Plastic Surgery*
 > *Why it works:* Sharp social commentary with a catchy, rhythmic flow.
+
+## Meme Punk
+
+> **"Bogdanoff is watching, he's holding the phone / 'He bought?' he asks, in that terrible tone"**
+> *Source: Liquidated on Binance*
+> *Why it works:* Perfect execution of the "Bogdanoff" crypto meme into a lyrical structure.
+
+> **"I checked the RSI, I drew all the lines / I ignored the warnings, ignored all the signs"**
+> *Source: Liquidated on Binance*
+> *Why it works:* Relatable "trader" hubris set to a rhyming scheme. Fits the self-deprecating humor of the genre.
