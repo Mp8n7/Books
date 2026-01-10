@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Suno V5 Generation Request",
+  "type": "object",
+  "properties": {
+    "reasoning": {
+      "type": "string",
+      "description": "Explanation of the strategy: why these specific tags, lyrics, and parameters were chosen."
+    },
+    "style_prompt": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 4,
+      "maxItems": 7,
+      "description": "List of 4-7 genre/style descriptors. Do not use negative constraints here."
+    },
+    "negative_prompt": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of elements to exclude (e.g., 'no drums', 'no male vocals'). formatted as 'no [feature]'."
+    },
+    "lyrics": {
+      "type": "string",
+      "description": "The song lyrics, including metatags in brackets [ ]."
+    },
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "weirdness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Value between 0 and 1."
+        },
+        "style_influence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Value between 0 and 1."
+        }
+      },
+      "required": ["weirdness", "style_influence"]
+    }
+  },
+  "required": ["reasoning", "style_prompt", "lyrics", "parameters"]
+}

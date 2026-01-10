@@ -1,0 +1,38 @@
+{
+  "metatags": {
+    "structure": {
+      "Intro": { "description": "Short instrumental introduction, usually 4-8 bars.", "effectiveness": "High" },
+      "Verse": { "description": "Main storytelling section, lower energy.", "effectiveness": "High" },
+      "Pre-Chorus": { "description": "Build-up section before the chorus.", "effectiveness": "High" },
+      "Chorus": { "description": "Main hook/theme, higher energy.", "effectiveness": "Very High" },
+      "Post-Chorus": { "description": "Instrumental or repeated vocal hook after chorus.", "effectiveness": "Medium" },
+      "Bridge": { "description": "Contrast section, often new melody or chord progression.", "effectiveness": "High" },
+      "Outro": { "description": "Ending section, can be fade-out or final cadence.", "effectiveness": "High" },
+      "Hook": { "description": "A short, catchy phrase or melody.", "effectiveness": "Medium" },
+      "Break": { "description": "Short pause or instrumental break.", "effectiveness": "Medium" },
+      "Interlude": { "description": "Connecting section between parts.", "effectiveness": "Medium" }
+    },
+    "performance": {
+      "Solo": { "description": "Instrumental solo (e.g., [Guitar Solo]).", "effectiveness": "High" },
+      "Instrumental Break": { "description": "Extended instrumental section.", "effectiveness": "High" },
+      "Silence": { "description": "Attempt to force a pause (hit or miss).", "effectiveness": "Low" },
+      "Fade Out": { "description": "Gradual decrease in volume at the end.", "effectiveness": "Medium" },
+      "Big Finish": { "description": "Grand, loud ending.", "effectiveness": "Medium" },
+      "Spoken Word": { "description": "Non-melodic vocal delivery.", "effectiveness": "Medium" },
+      "Ad-lib": { "description": "Improvised vocal lines.", "effectiveness": "Medium" },
+      "Drop": { "description": "EDM-style drop (e.g., [Bass Drop]).", "effectiveness": "High" }
+    },
+    "v5_guidance": {
+      "description": "V5 supports bracketed guidance for specific styles or instruments within the lyrics field.",
+      "examples": [
+        "[Melodic Bass]",
+        "[Aggressive Drums]",
+        "[Whispered Vocals]",
+        "[Gospel Choir]",
+        "[Rap Flow]",
+        "[Screamed Vocals]"
+      ],
+      "usage_note": "Place these before the section they apply to, or inline with the lyrics."
+    }
+  }
+}

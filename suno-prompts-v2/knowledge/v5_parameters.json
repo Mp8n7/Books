@@ -1,0 +1,24 @@
+{
+  "weirdness": {
+    "description": "Controls the randomness and creativity of the generation. Higher values are more chaotic.",
+    "ranges": {
+      "Safe": { "min": 0, "max": 0.2, "description": "Predictable, mainstream, highly commercial." },
+      "Normal": { "min": 0.35, "max": 0.55, "description": "Baseline for most genres. Good balance." },
+      "High": { "min": 0.6, "max": 1.0, "description": "Experimental, chaotic, unexpected results. Good for blends." }
+    },
+    "v5_guidance": "Don't jump above 50% immediately. Adjust in small increments."
+  },
+  "style_influence": {
+    "description": "Controls how strictly the model adheres to the style tags.",
+    "ranges": {
+      "Loose": { "min": 0, "max": 0.3, "description": "Open interpretation. Good for incompatible genre blends." },
+      "Medium": { "min": 0.4, "max": 0.6, "description": "Balanced adherence." },
+      "Strong": { "min": 0.65, "max": 1.0, "description": "Strict adherence to prompt tags." }
+    },
+    "v5_guidance": "If the model isn't listening to your genre tags, increase this. If it sounds too generic, decrease it."
+  },
+  "defaults": {
+    "weirdness": 0.4,
+    "style_influence": 0.5
+  }
+}
