@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Suno V5 Generation Request",
+  "type": "object",
+  "properties": {
+    "reasoning": {
+      "type": "string",
+      "description": "Explanation of the strategy: why these specific tags, lyrics, and parameters were chosen."
+    },
+    "style_prompt": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 4,
+      "maxItems": 7,
+      "description": "List of 4-7 genre/style descriptors for the main 'Style of Music' box."
+    },
+    "exclude_styles": {
+      "type": "string",
+      "description": "Text for the 'Exclude Styles' box. Comma-separated list of elements to avoid (e.g., 'drums, male vocals, distortion'). Do NOT use 'no' prefix here, just the element name."
+    },
+    "lyrics": {
+      "type": "string",
+      "description": "The song lyrics for the 'Lyrics' box, including metatags in brackets [ ]."
+    },
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "weirdness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Value between 0 and 1."
+        },
+        "style_influence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Value between 0 and 1."
+        },
+        "audio_influence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Value between 0 and 1. Optional (only if uploading audio)."
+        }
+      },
+      "required": ["weirdness", "style_influence"]
+    }
+  },
+  "required": ["reasoning", "style_prompt", "exclude_styles", "lyrics", "parameters"]
+}

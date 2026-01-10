@@ -1,0 +1,43 @@
+{
+  "weirdness": {
+    "name": "Weirdness",
+    "description": "Controls creative risk level. Moves from Safe to Chaos.",
+    "ranges": {
+      "Safe": { "min": 0, "max": 0.2, "description": "Highly predictable, conventional, commercial." },
+      "Normal": { "min": 0.35, "max": 0.55, "description": "Baseline (50%). Good balance for most initial generations." },
+      "High": { "min": 0.6, "max": 0.85, "description": "Experimental, unexpected. Use for bridges or genre blends." },
+      "Chaos": { "min": 0.86, "max": 1.0, "description": "Unpredictable noise or avant-garde." }
+    },
+    "genre_defaults": {
+      "Pop": 0.45,
+      "Hip Hop": 0.50,
+      "Worship": 0.35,
+      "Orchestral": 0.60,
+      "Experimental": 0.80
+    }
+  },
+  "style_influence": {
+    "name": "Style Influence",
+    "description": "Controls how strictly the model adheres to the style tags.",
+    "ranges": {
+      "Loose": { "min": 0, "max": 0.3, "description": "Open interpretation. Fusion-heavy." },
+      "Medium": { "min": 0.4, "max": 0.6, "description": "Balanced adherence (Default)." },
+      "Strong": { "min": 0.65, "max": 0.9, "description": "Strict adherence. Use when you have a detailed prompt." }
+    },
+    "genre_defaults": {
+      "Pop": 0.75,
+      "Hip Hop": 0.65,
+      "Worship": 0.80,
+      "Orchestral": 0.50,
+      "Experimental": 0.45
+    }
+  },
+  "audio_influence": {
+    "name": "Audio Influence",
+    "description": "Only active when uploading audio. Controls how much the upload guides the generation.",
+    "ranges": {
+      "Texture": { "min": 0.2, "max": 0.4, "description": "Use upload for background ambience or faint inspiration." },
+      "Lead": { "min": 0.6, "max": 0.8, "description": "Use upload as the main melody, riff, or vocal." }
+    }
+  }
+}
