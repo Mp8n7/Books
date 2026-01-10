@@ -1,0 +1,28 @@
+{
+  "genres": [
+    "Pop", "Rock", "Hip Hop", "Electronic", "Jazz", "Classical", "Folk", "Country", "R&B", "Soul", "Metal", "Punk", "Reggae", "Blues", "Latin", "World", "Ambient", "Experimental", "Soundtrack", "Spoken Word"
+  ],
+  "subgenres": {
+    "Electronic": ["Techno", "House", "Trance", "Dubstep", "Drum and Bass", "Synthwave", "Lo-fi", "IDM", "Ambient"],
+    "Rock": ["Indie Rock", "Alternative Rock", "Hard Rock", "Prog Rock", "Psychedelic Rock", "Post-Rock", "Grunge", "Punk Rock"],
+    "Hip Hop": ["Trap", "Boom Bap", "Drill", "Lo-fi Hip Hop", "Old School", "Conscious Hip Hop"],
+    "Metal": ["Heavy Metal", "Thrash Metal", "Death Metal", "Black Metal", "Doom Metal", "Metalcore", "Nu Metal"]
+  },
+  "instruments": {
+    "Strings": ["Acoustic Guitar", "Electric Guitar", "Bass Guitar", "Upright Bass", "Violin", "Cello", "Double Bass", "Harp"],
+    "Percussion": ["Drum Kit", "Electronic Drums", "808", "Congas", "Bongos", "Shaker", "Tambourine", "Timpani"],
+    "Keys": ["Piano", "Synthesizer", "Electric Piano", "Organ", "Harpsichord", "Mellotron"],
+    "Wind": ["Saxophone", "Trumpet", "Trombone", "Flute", "Clarinet"],
+    "Electronic": ["Synth Lead", "Synth Pad", "Synth Bass", "Arpeggiator", "Sub Bass", "Sawtooth Wave", "Square Wave"]
+  },
+  "production": {
+    "Atmosphere": ["Atmospheric", "Ethereal", "Dark", "Bright", "Warm", "Cold", "Spacious", "Claustrophobic"],
+    "Fidelity": ["Lo-fi", "Hi-fi", "Vintage", "Modern", "Clean", "Distorted", "Noisy", "Polished"],
+    "Dynamics": ["Dynamic", "Compressed", "Loud", "Soft", "Punchy", "Smooth"]
+  },
+  "vocals": {
+    "Gender": ["Male Vocals", "Female Vocals", "Androgynous Vocals", "Duet", "Choir"],
+    "Style": ["Clean", "Distorted", "Growl", "Scream", "Whisper", "Falsetto", "Rap", "Spoken", "Autotune", "Operatic"],
+    "Timbre": ["Husky", "Smooth", "Gritty", "Airy", "Rich", "Nasal", "Bright", "Dark"]
+  }
+}
