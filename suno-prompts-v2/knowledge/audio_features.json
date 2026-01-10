@@ -20,6 +20,21 @@
     "Fidelity": ["Lo-fi", "Hi-fi", "Vintage", "Modern", "Clean", "Distorted", "Noisy", "Polished"],
     "Dynamics": ["Dynamic", "Compressed", "Loud", "Soft", "Punchy", "Smooth"]
   },
+  "v1_magic_words": {
+    "description": "High-impact production descriptors from V1. Prioritize these for higher quality.",
+    "Acoustic_Realism": [
+      "small room acoustics", "close mic presence", "proximity effect", "fret squeak",
+      "pick noise", "tape saturation", "tube warmth", "slight wow and flutter", "breath detail"
+    ],
+    "Electronic_Power": [
+      "FM synthesis bass", "wavetable movement", "sidechain compression", "low-pass filter sweeps",
+      "clean punch", "phase-coherent low end", "analog warmth", "modular synth textures"
+    ],
+    "Vocal_Texture": [
+      "breathless", "staccato phrasing", "vocal fry", "detached", "melancholic", "urgent",
+      "husky", "nasal", "intimate whisper-to-belt"
+    ]
+  },
   "vocals": {
     "Gender": ["Male Vocals", "Female Vocals", "Androgynous Vocals", "Duet", "Choir"],
     "Style": ["Clean", "Distorted", "Growl", "Scream", "Whisper", "Falsetto", "Rap", "Spoken", "Autotune", "Operatic"],
